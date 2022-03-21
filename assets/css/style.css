@@ -1,7 +1,4 @@
 
-/*.header h1 .seo {
-    color: #d9dcd6;
-}*/
 
 
 
@@ -13,27 +10,25 @@
     margin: 0;
 }
 
+/* HEADER CSS RULES */
 
-
+/* Header Class Selector, applying padding, font, background color and font color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-body .header h1.seo{
-    background-color: #d9dcd6;
-}
-
-
+/* class named header | h1 display set to block and font declaration */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-
-
+/* selects seo class and body and sets font color */
+.header h1 .seo, body {
+    color: #d9dcd6;
+}
+/* Header nav padding, margin, float, font style and size set */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,16 +36,13 @@ body .header h1.seo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header nav ul {
-    list-style-type: none;
-}
-
+/* nav list declarations display type, margin and removing list type */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
-
+/* element selector for anchor elements | sets font color and text decoration type */
 a {
     color: #ffffff;
     text-decoration: none;
