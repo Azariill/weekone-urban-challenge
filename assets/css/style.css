@@ -47,11 +47,11 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets paragraph font size */
 p {
     font-size: 16px;
 }
-
+/* Sets up parameters for hero class/ jumbotron */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,17 +60,17 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* float left class for float / margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* float left class for float /margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* defines outline for main content */
 .content {
     width: 75%;
     display: inline-block;
@@ -78,7 +78,7 @@ p {
     
     
 }
-
+/* defines layout for benefits class container */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,18 +88,21 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color:#ffffff ;   
 }
-
-
+/* applys margin to benefits divs */
 .benefit-class{
-    color:#ffffff ;
+
     margin-bottom: 32px;
+
 }
+/* benefit class h3 element selector applys font,margin and text alignments */
 .benefit-class h3{
     color: #ffffff;
     margin-bottom: 10px;
     text-align: center;
 }
+/* sets class images display, margin and max width */
 .benefit-class img {
     display: block;
     margin: 10px auto;
