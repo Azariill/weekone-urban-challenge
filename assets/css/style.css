@@ -1,29 +1,38 @@
+
+
+
+
+
+/* Universal Selector Removing default page wide margins and setting box sizing */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*set body background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* HEADER CSS RULES */
+
+/* Header Class Selector, applying padding, font, background color and font color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* class named header | h1 display set to block and font declaration */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* selects seo class and body and sets font color */
+.header h1 .seo{
     color: #d9dcd6;
 }
-
+/* Header nav padding, margin, float, font style and size set */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +40,22 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header nav ul {
-    list-style-type: none;
-}
-
+/* nav list declarations display type, margin and removing list type */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
-
+/* element selector for anchor elements | sets font color and text decoration type */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets paragraph font size */
 p {
     font-size: 16px;
 }
-
+/* Sets up parameters for hero class/ jumbotron */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,17 +64,17 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* float left class for float / margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* float left class for float /margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* defines outline for main content */
 .content {
     width: 75%;
     display: inline-block;
@@ -76,7 +82,7 @@ p {
     
     
 }
-
+/* defines layout for benefits class container */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,57 +92,28 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color:#ffffff ;   
 }
+/* applys margin to benefits divs */
+.benefit-class{
 
-.benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
 }
-
-.benefit-cost {
-    margin-bottom: 32px;
+/* benefit class h3 element selector applys font,margin and text alignments */
+.benefit-class h3{
     color: #ffffff;
-}
-
-.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* sets class images display, margin and max width */
+.benefit-class img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* set a class that defines layout for the articles */
+.article-class {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,52 +121,17 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* sets height of article images */
+.article-class img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* defines margin and font of article h2 */
+.article-class h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -197,6 +139,7 @@ p {
     text-align: center;
 }
 
+/* selects footer h2 sets font */
 .footer h2 {
     font-size: 20px;
 }
