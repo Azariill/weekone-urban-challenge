@@ -112,6 +112,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* set a class that defines layout for the articles */
 .article-class {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,15 +121,17 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* sets height of article images */
 .article-class img {
     max-height: 200px;
 }
-
+/* defines margin and font of article h2 */
 .article-class h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -136,6 +139,7 @@ p {
     text-align: center;
 }
 
+/* selects footer h2 sets font */
 .footer h2 {
     font-size: 20px;
 }
